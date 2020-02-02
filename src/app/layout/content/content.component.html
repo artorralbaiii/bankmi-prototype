@@ -1,0 +1,30 @@
+<!-- Main Content -->
+<div id="content">
+    <!-- Topbar -->
+    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+        <!-- Topbar Navbar -->
+        <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li app-alerts class="nav-item dropdown no-arrow mx-1"></li>
+            <!-- End Of Nav Item - Alerts -->
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <!-- Nav Item - User Information -->
+            <li app-user-item class="nav-item dropdown no-arrow"></li>
+            <!-- End Of Nav Item - User Information -->
+
+        </ul>
+
+    </nav>
+
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+        <router-outlet></router-outlet>
+    </div>
+
+    <!-- Footer -->
+    <footer app-footer class="sticky-footer bg-white"></footer>
+    <!-- End of Footer -->
+</div>
